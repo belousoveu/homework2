@@ -32,14 +32,14 @@ public class Main {
         System.out.println(frog);
         frog+=4;
         System.out.println(frog);
-        var boxer1=78.2;
-        var boxer2=82.7;
+        var boxer1 = 78.2;
+        var boxer2 = 82.7;
         System.out.println("Общий вес двух бойцов "+(boxer1+boxer2)+" кг");
         System.out.println("Разница веса двух бойцов "+Math.abs(boxer1-boxer2)+" кг");
-        System.out.println("Остаток от деления весов двух бойцов "+(Math.max(boxer2,boxer1)%Math.min(boxer1,boxer2))+" кг");
+        System.out.println("Остаток от деления весов двух бойцов "+(Math.max(boxer1,boxer2)%Math.min(boxer1,boxer2))+" кг");
 
-        var totalWorkingTime=640;
-        var onePersonWorkingTime=8;
+        var totalWorkingTime = 640;
+        var onePersonWorkingTime = 8;
         System.out.println("Всего работников в компании "+(totalWorkingTime/onePersonWorkingTime)+" человек");
         var totalPersons=totalWorkingTime/onePersonWorkingTime+94;
         System.out.println("Если в компании работает  "+totalPersons+" человек, то всего "+(totalPersons*onePersonWorkingTime)+" часов работы может быть поделено между сотрудниками");
